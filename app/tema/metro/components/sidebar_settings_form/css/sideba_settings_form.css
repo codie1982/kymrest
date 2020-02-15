@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29.Eki.2019, 15:27:04
+    Author     : engin
+*/
+
+.mt-element-list{
+
+}
+
+.mt-list-container{
+
+}
+.mt-element-list .mt-list-container .mt-list-item{
+    padding: 5px 0;
+    border_bottom:1px solid;
+    border-color: #e7ecf1;
+    padding: 15px 0;
+}

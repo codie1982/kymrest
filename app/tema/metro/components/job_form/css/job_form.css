@@ -1,0 +1,260 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03.Eyl.2019, 18:19:58
+    Author     : engin
+*/
+
+.btn.green:not(.btn-outline){
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px !important;
+    box-shadow: 0 3px 6px 3px #eee!important;
+}
+
+.table-responsive{
+    box-shadow: 2px 2px 4px 2px #5988e44a;
+    background: linear-gradient(to left, #5b86e514, #36d1dc00);
+}
+
+.product_category_list li{
+    list-style: none;
+    float: left;
+    margin-left: 10px
+}
+.product_category_list li button{
+    background: #337ab7;
+    color:#fff;
+    border : 1px solid #0081c2;
+}
+
+.product_container{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.product_container .image_section{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.product_container .image_section img{
+    width: 100%;
+}
+
+.product_container .product_info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_container .product_info .product_header{
+    display: flex;
+    align-content:  space-around;
+    border-bottom: 1px solid #a9a9a9;
+    margin-bottom: 20px;
+}
+.product_container .product_info .product_header .product_price_amount{
+    display: flex;
+}
+
+.product_container .product_info .product_header .product_price_amount .product_amount_plus,
+.product_container .product_info .product_header .product_price_amount .product_amount_minus{
+    width: 25px;
+    height:  25px;
+}
+.product_container .product_info .product_header .product_price_amount .product_amount{
+    flex: 1;
+}
+#product_amount_input{
+    text-align: center;
+}
+.product_container .product_info .product_header .product_header_info,
+.product_container .product_info .product_header .product_price_info{
+    padding: 0 10px;
+}
+
+.product_container .product_info .product_header .product_header_info .product_title{
+    font-size: 30px;
+    font-weight: 800;
+    color:#111;
+
+}
+
+.product_container .product_info .product_header .product_header_info .product_subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color:#a9a9a9;
+
+}
+
+.product_container .product_info .product_header .product_price_info .product_first_price{
+    font-size: 20px;
+    font-weight: 600;
+    color:#a9a9a9;
+    text-decoration:line-through;
+}
+.product_container .product_info .product_header .product_price_info .product_price{
+    font-size: 30px;
+    font-weight: 800;
+    color:#111;
+}
+
+.product_container .product_info .product_descriptions{
+    flex: 1;
+}
+.product_container .product_info .product_descriptions .product_option_header{
+    font-size: 18px;
+    font-weight: 500;
+    color:#111;
+    padding: 10px;
+    border :1px solid #e1e1e1;
+    box-shadow: 2px 2px 2px 0px #f3f3f3;
+    border-radius: 5px;
+
+}
+.product_container .product_info .product_descriptions .product_price_options{
+    display: flex;
+    align-content:  space-around;
+    margin:auto;
+    width: auto;
+    flex-wrap: wrap
+}
+
+.product_container .product_info .product_descriptions .product_price_options .options{
+    flex: 1;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+.product_container .product_info .product_descriptions .product_price_options .options .header_title{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.product_container .product_info .product_descriptions .product_price_options .options .header_title .header_title_text{
+    font-size: 13px;
+    color:#111;
+}
+.product_container .product_info .product_descriptions .product_price_options .options .header_title .header_title_extra{
+    font-size: 11px;
+    color:#a9a9a9;
+}
+.product_footer{
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #111;
+}
+.product_footer .product_total_price{
+    font-size: 18px;
+    font-weight: 600;
+    color:#111;
+    line-height: 34px;
+}
+.mt-checkbox-list,.mt-radio-list{
+    margin-top:10px;
+}
+
+.product_list_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ul.product_list{
+    position: relative;
+    flex: 1;
+}
+ul.product_list li.item{
+    position: relative;
+    float: left;
+    display: block;
+    border: 2px solid #cbd4e6;
+    background: #e6f0ff;
+    padding: 10px;
+}
+
+h5.mega_title{
+    position: relative;
+    width: 100%;
+    display: block;
+    float: left;
+    border-bottom: 1px solid;
+    font-size: 14px;
+    font-weight: 700;
+    color: #797979;
+    padding: 0 0 10px;
+}
+ul.options_list li.options{
+    position: relative;
+    float: left;
+    display: block;
+    padding: 2px 4px;
+    margin: 2px;
+    border:1px solid #399ece;
+    background: #43c1fd;
+    border-radius: 10px !important;
+}
+ul.options_list li.options:hover{
+    background: #39a3d6;
+}
+
+ul.options_list li span{
+    color:#fff;
+}
+ul.product_list li.active{
+    border : 2px solid #337ab7;
+}
+
+ul.product_list li .product_list_info{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+ul.product_list li a{
+    text-decoration: none;
+}
+ul.product_list li .product_list_info .title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color:#111;
+    flex: 2;
+    width: 150px;
+}
+ul.product_list li .product_list_info .price{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color:#a9a9a9;
+    margin-top: 5px;
+    margin-left: 5px;
+    flex: 1;
+}
+
+ul.product_list li .product_list_info .amnout{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color:#a9a9a9;
+    margin-top: 5px;
+    margin-left: 5px;
+    flex: 1;
+}
+ul.product_list li .product_list_info .amnout:before{
+    content: ' X ';
+}
+
+.info_detail{
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 100%;
+}

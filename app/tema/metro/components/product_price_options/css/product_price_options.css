@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.Eki.2019, 16:32:16
+    Author     : engin
+*/
+
+li.price_group_list{
+    float: left;
+    width: 100%;
+    list-style: none;
+    border: 1px solid #b5b5b5;
+    padding: 10px;
+    border-radius: 10px !important;
+    background: #e8f9ff;
+    margin-bottom: 10px;
+}
+li.price_group_list label{
+    color:#111;
+}
+
+li.price_group_list ul.price_group_list_item li {
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}

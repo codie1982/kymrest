@@ -1,0 +1,322 @@
+{
+    "version": "1.00.1",
+    "description": "GRNTS E-ticaret Sistemleri",
+    "author": "Engin EROL",
+    "title": "GRNTS E-Ticaret Sistemleri",
+    "application_key": "8328.1994.4007.15733018807522",
+    "pre": "gr",
+    "config": "config",
+    "admin": "metro",
+    "user": "grnt",
+    "mail": "mail",
+    "create_class": "default",
+    "router_type": "multiple",
+    "router": {
+        "admin": {
+            "controller": "admin_dashboard",
+            "page_title": "Ana Sayfa",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-home",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/login": {
+            "controller": "admin_login",
+            "page_title": "Giriş",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "everyone",
+            "session": "off"
+        },
+        "admin/register": {
+            "controller": "admin_register",
+            "page_title": "Kayıt Ol",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "everyone",
+            "session": "off"
+        },
+        "admin/categories": {
+            "controller": "admin_categories",
+            "page_title": "Kategoriler",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-anchor",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/products": {
+            "controller": "admin_products",
+            "page_title": "Ürünler",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-puzzle-piece",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/customers": {
+            "controller": "admin_customers",
+            "page_title": "Kullanıcılar",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-diamond",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/jobs": {
+            "controller": "admin_jobs",
+            "page_title": "Siparişler",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-fax",
+            "permission": "admin",
+            "session": "on",
+            "disabled": true
+        },
+        "admin/mailbox": {
+            "controller": "admin_mailbox",
+            "page_title": "Mail Kutusu",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-envelope",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/trash": {
+            "controller": "admin_trash",
+            "page_title": "Çöp Kutusu",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-trash",
+            "permission": "admin",
+            "session": "on",
+            "disabled": true
+        },
+        "admin/settings/general": {
+            "controller": "admin_general_settings",
+            "page_title": "Genel Ayarlar",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/settings/tema": {
+            "controller": "grnt_tema_settings",
+            "page_title": "Tema Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/settings/products": {
+            "controller": "admin_product_settings",
+            "page_title": "Ürün Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/settings/transport": {
+            "controller": "admin_transport_settings",
+            "page_title": "Gönderim Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/settings/module": {
+            "controller": "admin_module_settings",
+            "page_title": "Modul Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "supermen",
+            "session": "on"
+        },
+        "admin/settings/sidebar": {
+            "controller": "admin_sidebar_settings",
+            "page_title": "Menu Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "supermen",
+            "session": "on"
+        },
+        "admin/settings/customers": {
+            "controller": "admin_user_settings",
+            "page_title": "Kullanıcı Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/settings/category": {
+            "controller": "admin_category_settings",
+            "page_title": "Kategori Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/settings/jobs": {
+            "controller": "admin_jobs_settings",
+            "page_title": "Sipariş Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/logout": {
+            "controller": "admin_logout",
+            "page_title": "Çıkış",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "everyone",
+            "session": "on"
+        },
+        "admin/library": {
+            "controller": "admin_library",
+            "page_title": "Kütüphane",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-book",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/extension": {
+            "controller": "admin_extension",
+            "page_title": "Eklentiler",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/mailconfirm": {
+            "controller": "admin_mail_confirm",
+            "page_title": "Mail Onayı",
+            "permission": "everyone"
+        },
+        "admin/forgotpassword": {
+            "controller": "admin_repassword",
+            "page_title": "Şifre Yenileem"
+        },
+        "home": {
+            "controller": "home",
+            "page_title": "Ana Sayfa",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "everyone"
+        },
+        "search": {
+            "controller": "search",
+            "page_title": "Arama Sayfası",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin"
+        },
+        "admin/updatepack": {
+            "controller": "admin_upgrade_pack",
+            "page_title": "Güncelleme Paketleri",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-heart",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/upgrades": {
+            "controller": "admin_upgrades",
+            "page_title": "Güncelleştirmeler",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-refresh",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/campaigns": {
+            "controller": "admin_campaigns",
+            "page_title": "Kampanyalar",
+            "function": "*.ini",
+            "icon": "fa fa-gift",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        },
+        "admin/bulkmail": {
+            "controller": "admin_bulkmail_section",
+            "page_title": "Toplu Mail",
+            "function": "*.ini",
+            "component_directory": "components",
+            "icon": "fa fa-envelope",
+            "permission": "admin",
+            "session": "on"
+        }
+        ,
+        "admin/mobileapp": {
+            "controller": "admin_mobileapp",
+            "page_title": "Mobil Aplikasyon Ayarları",
+            "function": "*.ini",
+            "component_directory": "components",
+            "permission": "admin",
+            "session": "on"
+        }
+    },
+    "tema-page": {
+
+    },
+    "extension-page": {
+        "update_admin": {
+
+        },
+        "upgrades": {
+
+        },
+        "campaigns": {
+
+        }
+        ,
+        "product_operations": {},
+        "Bulkmail": {
+
+        }
+    },
+    "mail-router": {
+        "testmail": {
+            "title": "Test Mail",
+            "description": "test mail içeriği",
+            "controller": "send_mail_action",
+            "function": "*.ini",
+            "component_directory": "components",
+            "sender": "standart"
+        },
+        "general_info_mail": {
+            "title": "Genel Bilgilendirme",
+            "description": "İçeriklerimizden genel olarak bilgilendirme maili",
+            "controller": "general_info_mail",
+            "function": "*.ini",
+            "component_directory": "components",
+            "sender": "bulkmail"
+        },
+        "ecommercial": {
+            "title": "e-Ticaret Tanıtım",
+            "description": "e-ticaret sisteminin tanıtımı amaçlı",
+            "controller": "ecommercial_controller",
+            "function": "*.ini",
+            "component_directory": "components",
+            "sender": "bulkmail",
+            "permission": "everyone"
+        }
+    },
+    "envormient": {
+        "database": {
+            "db_host": "localhost",
+            "db_name": "kymdb",
+            "db_username": "root",
+            "db_password": "7891197Engin_"
+        },
+        "mail": {
+            "mail_host": "mail.grntsoftware.com",
+            "mail_username": "no-reply@grntsoftware.com",
+            "mail_password": "FBfg17U4"
+        }
+    }
+}
+

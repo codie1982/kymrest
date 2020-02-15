@@ -1,0 +1,79 @@
+.library-header{
+    background: #fff;
+    display: flex;
+    margin:auto;
+    width: 100%;
+    border : 1px solid #e1e1e1;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.library-view-list{
+    flex: 2;
+    margin: auto;
+}
+
+.library-view-list li{
+    list-style: none;
+    position:relative;
+    margin: auto;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.library-view-list li.select span{
+    color:#5B86E5;
+    font-weight: 400;
+}
+.library-view-list li span{
+    font-size: 22px;
+}
+
+
+.library-type-list{
+    flex: 10;
+    margin: auto;
+}
+.library-date-select{
+    flex: 2;
+    margin: auto;
+}
+.library-count-select{
+    flex: 2;
+    margin: auto;
+}
+.library-load-button{
+    flex: 1;
+    margin: auto;
+}
+.library-type-list li {
+    list-style: none;
+    position:relative;
+    margin: auto;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.library-type-list li.select {
+    background: #2b96f3;  /* fallback for old browsers */
+}
+.library-type-list li.select:first-child{
+    border-radius: 5px 0 0 5px !important;
+}
+.library-type-list li.select:last-child{
+    border-radius: 0 5px 5px 0 !important;
+}
+
+.library-type-list li.select span{
+    color:#fff;
+    font-weight: 400;
+}
+.library-type-list li span{
+    padding: 1px;
+
+}
+
+

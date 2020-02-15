@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02.Eki.2019, 16:13:43
+    Author     : engin
+*/
+
+.btn.green:not(.btn-outline){
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px !important;
+    box-shadow: 0 3px 6px 3px #eee!important;
+}
+
+.table-responsive{
+    box-shadow: 2px 2px 4px 2px #5988e44a;
+    background: linear-gradient(to left, #5b86e514, #36d1dc00);
+}

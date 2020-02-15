@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.Eyl.2019, 11:14:55
+    Author     : engin
+*/
+
+.group_fields_box_list{
+    list-style: none;
+
+}
+.group_fields_box_list li{
+    float: left;
+    margin-left: 10px;
+
+}
+.group_fields_box{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 100% !important;
+    border: 1px solid #bbb!important;
+    box-shadow: 0 3px 3px 2px #9696964d;
+    -webkit-border-radius: 100% !important;
+}
+
+.box_selected{
+    border: 2px solid #ff6c76!important;
+    box-shadow: 0 3px 3px 2px #969696;
+}

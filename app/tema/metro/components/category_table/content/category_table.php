@@ -1,0 +1,1 @@
+<?php component::start($props); ?><div id="category_table">    <?php if (component::isset_probs("category_id")): ?>        <input type="hidden" data-category_id value="<?= component::get_props("category_id") ?>" />    <?php endif; ?></div><?php component::end(); ?>
